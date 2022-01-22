@@ -16,6 +16,7 @@ https://anaconda.cloud/support-center/installers
 ## Install VsCode
 
 1.https://code.visualstudio.com/docs
+
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -32,13 +33,15 @@ sudo apt install code # or code-insiders
 
 2.$sudo apt install openjdk-17-jdk-headless
 
-##Install IDE
+## Install IDE
 
 1.sudo snap install pycharm-community --classic
+
 2.sudo snap install intellij-idea-community --classic
 
 
 ## Install Virtual Box
+
 Virtual error
 
 Kernel driver not installed (rc=-1908)
