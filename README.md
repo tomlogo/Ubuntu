@@ -1,5 +1,4 @@
-# Ubuntu
-development environment
+# Ubuntu development environment
 
 ## Install Virtual Box on Ubuntu
 Virtual error
@@ -18,4 +17,5 @@ where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The support d
 
 
 1.$ sudo apt install virtualbox-dkms
+
 2.$ sudo apt upgrade
