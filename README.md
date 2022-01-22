@@ -3,7 +3,7 @@
 The best way is to check the official documentation
 
 
-##Install Anaconda
+## Install Anaconda
 
 https://anaconda.cloud/support-center/installers
 
@@ -13,7 +13,7 @@ https://anaconda.cloud/support-center/installers
 
 
 
-##Install VsCode
+## Install VsCode
 
 1.https://code.visualstudio.com/docs
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -26,7 +26,7 @@ sudo apt update
 sudo apt install code # or code-insiders
 
 
-##Install Java git gcc
+## Install Java git gcc
 
 1.$javac
 
