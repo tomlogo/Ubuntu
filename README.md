@@ -2,6 +2,7 @@
 
 The best way is to check the official documentation
 
+
 ##Install Anaconda
 
 https://anaconda.cloud/support-center/installers
@@ -9,6 +10,7 @@ https://anaconda.cloud/support-center/installers
 1.apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
 2.bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+
 
 
 ##Install VsCode
@@ -23,9 +25,11 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code # or code-insiders
 
+
 ##Install Java git gcc
 
 1.$javac
+
 2.$sudo apt install openjdk-17-jdk-headless
 
 ##Install IDE
