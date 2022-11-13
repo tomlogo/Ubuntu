@@ -65,3 +65,27 @@ where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The support d
 1.$ sudo apt install virtualbox-dkms
 
 2.$ sudo apt upgrade
+
+
+## Setting linux in VirtualBox
+
+1.Virtualbox setting, new NatNetwork 10.0.2.0/24 and Supports DHCP
+
+2.VirtalLinux NatNetwork
+
+3.Restart VirtualMachine
+
+4.sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+
+BOOTPROTO=static
+ONBOOT=yes
+
+IPADDR=10.0.2.6
+GATEWAY=10.0.2.1
+NETMASK=255.255.255.0
+DNS1=10.0.2.1
+
+save
+
+5. service network restart
+
