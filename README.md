@@ -89,3 +89,26 @@ save
 
 5. service network restart
 
+
+## Mac SSH VirtuanBox
+
+1. VirtualBox  setting-adapter-advanced-Port Forwarding
+
+rule1-tcp-2222(port)-10.0.2.15-22
+
+2. ssh -p 2222 username@127.0.0.1
+
+ssh_exchange_identification: read: Connection reset by peer??
+vi /etc/hosts.allow
+sshd: ALL
+
+check sshd in terminal
+
+sudo apt install openssh-server
+
+3. systemctl restart sshd
+
+4. restart linux
+
+5. ssh -p 2222 username@127.0.0.1
+
