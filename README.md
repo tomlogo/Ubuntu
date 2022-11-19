@@ -113,3 +113,26 @@ sudo apt install openssh-server
 
 5. ssh -p 2222 username@127.0.0.1
 
+## Mac SSH VirtuanBox CentOS
+
+1. check the network status is open
+
+2. check ssh status
+
+    sudo rpm -qa | grep ssh
+    
+    yum install openssh-server
+    
+    sudo vim /etc/ssh/sshd_config
+    
+    delete # before Prot 22
+           # before PermitRootLogin no
+ 
+ 3. enable ssh automatic start
+     
+     systemctl enable sshd.service
+ 
+ 
+ 4. Host key verification failed. ?
+    
+    In your host, delete rm -rf  known_hosts (/User/name/.ssh/)
